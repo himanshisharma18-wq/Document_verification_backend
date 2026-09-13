@@ -1,0 +1,82 @@
+
+
+# Python cache
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
+# Virtual environment
+
+
+venv/
+.venv/
+env/
+
+
+
+# Environment variables / secrets
+
+
+.env
+.env.*
+!.env.example
+
+
+
+# Generated reports
+
+
+reports/
+*.pdf
+
+
+
+# Uploaded documents and images
+
+
+uploads/
+*.jpeg
+*.jpg
+*.png
+
+
+
+# Testing / temporary files
+
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+
+# VS Code
+
+
+.vscode/
+
+
+
+# Operating system files
+
+
+.DS_Store
+Thumbs.db
+
+
+
+
+# Database data
+
+
+database_data/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+backend/database/demo_database.py
