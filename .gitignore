@@ -80,3 +80,7 @@ data/
 *.sqlite3
 
 backend/database/demo_database.py
+
+
+# Keep local test files out of GitHub
+backend/test_*.py
